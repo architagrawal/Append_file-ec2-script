@@ -2,8 +2,8 @@ import boto3
 import os
 import sys
 from botocore.exceptions import ClientError
-aws_access_key_id = "AKIA47CR2H7SRPE3KONT"
-aws_secret_access_key = "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"
+aws_access_key_id = "Acess_key_here"
+aws_secret_access_key = "Secret_key_here"
 s3 = boto3.client('s3',aws_access_key_id= aws_access_key_id, aws_secret_access_key=aws_secret_access_key, region_name="us-east-1")
 dynamodb = boto3.resource('dynamodb', aws_access_key_id= aws_access_key_id, aws_secret_access_key=aws_secret_access_key, region_name="us-east-1")
 
