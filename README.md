@@ -1,4 +1,4 @@
-# Script to Process on EC2- 
+# Script to Process on EC2- Add Input Text to Input File
 
 This Script is responsible for getting the data from DynamoDB, download the input file from S3 to /tmp file, appending the input text to the input file, uploading the new file to output s3 and entering a new item in DynamoDB with the same ID as input file's ID and a path to output file in s3.
 
